@@ -1,30 +1,28 @@
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
-        body {
-            font-family: 'Poppins', sans-serif;
-            background-color: #fcf8f3;
-            color: #333;
-            line-height: 1.6;
-            padding-bottom: 50px;
-            overflow-x: hidden;
-        }
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
 
-      
-        .decoration-leaf {
-            position: fixed;
-            background-color: #81c784;
-            opacity: 0.7;
-            animation: floatLeaf 20s infinite ease-in-out;
-            z-index: -1;
-            border-radius: 50% 0 50% 0;
-        }
-.decoration-leaf:nth-child(1) { 
+body {
+font-family: 'Poppins', sans-serif;
+background-color: #fcf8f3;
+color: #333;
+line-height: 1.6;
+padding-bottom: 50px;
+overflow-x: hidden;
+}
+.decoration-leaf {
+position: fixed;
+background-color: #81c784;
+opacity: 0.7;
+animation: floatLeaf 20s infinite ease-in-out;
+z-index: -1;
+border-radius: 50% 0 50% 0;
+}
+.decoration-leaf:nth-child(1) { 
 width: 40px; 
 height: 40px; 
 top: 10%; 
